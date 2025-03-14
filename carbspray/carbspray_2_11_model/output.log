@@ -1,0 +1,43 @@
+(qualcomm-venv) pickle@16b93b521cb8:~/ml-models/carbspray$ python3 ../../qairt/2.27.0.240926/bin/x86_64-linux-clang/qnn-onnx-converter --input_network carbspray_2_11_model.on
+nx --output_path carbspray_2_11_model/carbspray_2_11_model.cpp
+2025-03-06 04:59:25,480 - 240 - WARNING - Symbolic shape inference Failed. Exception: Incomplete symbolic shape inference. Running normal shape inference.
+2025-03-06 04:59:28,042 - 235 - INFO - Simplified model validation is successful
+2025-03-06 04:59:28,290 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,292 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,293 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,294 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,295 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,296 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,297 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,298 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,299 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,300 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,301 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,302 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,304 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,304 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,306 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,307 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,308 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,314 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Relu Not Supported. Expected operator version: [1, 6], instead got version: [14]
+2025-03-06 04:59:28,315 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,319 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,323 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,327 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,331 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,336 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,339 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,343 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,347 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,351 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,363 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,364 - 240 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Clip Not Supported. Expected operator version: [1, 6, 11, 12], instead got version: [13]
+2025-03-06 04:59:28,387 - 235 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to /ReduceMin_output_0: new name /Reshape_1_output_0 new shape [1]
+2025-03-06 04:59:28,394 - 235 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to /ReduceMin_1_output_0: new name /Reshape_2_output_0 new shape [1]
+2025-03-06 04:59:28,403 - 235 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to /ReduceMin_2_output_0: new name /Reshape_3_output_0 new shape [1]
+2025-03-06 04:59:28,407 - 240 - WARNING - WARNING_CAST_TYPE: Only numerical type cast is supported. The op: Cast_1597 will be interpreted at conversion time
+2025-03-06 04:59:29,682 - 235 - INFO - Skipping quantization, no input_list provided
+2025-03-06 04:59:29,683 - 235 - INFO - Saving QNN Model...
+2025-03-06 04:59:29,784 - 235 - INFO - Model CPP saved at: carbspray_2_11_model/carbspray_2_11_model.cpp 
+2025-03-06 04:59:29,784 - 235 - INFO - Model BIN saved at: /home/pickle/ml-models/carbspray/carbspray_2_11_model/carbspray_2_11_model.bin 
+2025-03-06 04:59:29,787 - 235 - INFO - Conversion complete!

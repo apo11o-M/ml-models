@@ -1,0 +1,16 @@
+(qualcomm-venv) pickle@16b93b521cb8:~/ml-models/carbspray$ python3 ../../qairt/2.27.0.240926/bin/x86_64-linux-clang/qnn-onnx-converter --input_network carbspray_2_v3_model.on
+nx --output_path carbspray_2_v3_model/carbspray_2_v3_model.cpp
+2025-03-06 05:00:05,504 - 240 - WARNING - Symbolic shape inference Failed. Exception: Incomplete symbolic shape inference. Running normal shape inference.
+2025-03-06 05:00:05,640 - 240 - WARNING - Shape not found for tensor: /Unsqueeze_15_output_0
+2025-03-06 05:00:05,641 - 240 - WARNING - Shape not found for tensor: /Concat_7_output_0
+2025-03-06 05:00:05,641 - 240 - WARNING - Shape not found for tensor: /Concat_8_output_0
+2025-03-06 05:00:07,573 - 235 - INFO - Simplified model validation is successful
+2025-03-06 05:00:07,905 - 235 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to /ReduceMin_output_0: new name /Reshape_1_output_0 new shape [1]
+2025-03-06 05:00:07,913 - 235 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to /ReduceMin_1_output_0: new name /Reshape_2_output_0 new shape [1]
+2025-03-06 05:00:07,921 - 235 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to /ReduceMin_2_output_0: new name /Reshape_3_output_0 new shape [1]
+2025-03-06 05:00:07,925 - 240 - WARNING - WARNING_CAST_TYPE: Only numerical type cast is supported. The op: Cast_1318 will be interpreted at conversion time
+2025-03-06 05:00:09,222 - 235 - INFO - Skipping quantization, no input_list provided
+2025-03-06 05:00:09,222 - 235 - INFO - Saving QNN Model...
+2025-03-06 05:00:09,296 - 235 - INFO - Model CPP saved at: carbspray_2_v3_model/carbspray_2_v3_model.cpp 
+2025-03-06 05:00:09,296 - 235 - INFO - Model BIN saved at: /home/pickle/ml-models/carbspray/carbspray_2_v3_model/carbspray_2_v3_model.bin 
+2025-03-06 05:00:09,300 - 235 - INFO - Conversion complete!
